@@ -380,9 +380,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   //4Max
-  #define DEFAULT_Kp 12.76
-  #define DEFAULT_Ki 0.54
-  #define DEFAULT_Kd 75.53
+  #define DEFAULT_Kp 24.70
+  #define DEFAULT_Ki 2.08
+  #define DEFAULT_Kd 73.35
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
@@ -418,7 +418,7 @@
  * heater. If your configuration is significantly different than this and you don't understand
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  */
-//#define PIDTEMPBED
+#define PIDTEMPBED
 
 //#define BED_LIMIT_SWITCHING
 
