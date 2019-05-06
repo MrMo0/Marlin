@@ -434,10 +434,10 @@
 
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
-  //Anycubic 4Max Ultrabase (0.9Ω @ 22°C)
-  #define DEFAULT_bedKp 198.89
-  #define DEFAULT_bedKi 37.93
-  #define DEFAULT_bedKd 260.69
+  //Anycubic 4Max Ultrabase
+  #define DEFAULT_bedKp 231.21
+  #define DEFAULT_bedKi 45.52
+  #define DEFAULT_bedKd 293.58
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
